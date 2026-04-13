@@ -62,6 +62,7 @@ class Program
     }
 
     // get the users name
+    //added a prompt to get users name then use it to interact
     static string GetUserName()
     {
         Console.ForegroundColor = ConsoleColor.White;
