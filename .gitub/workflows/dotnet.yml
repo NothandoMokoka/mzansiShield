@@ -1,0 +1,19 @@
+name: MzansiShield CI Build
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+
+    - run: dotnet restore
+    - run: dotnet build --no-restore
