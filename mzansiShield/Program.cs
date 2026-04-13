@@ -80,6 +80,7 @@ class Program
     }
 
     // chatting here 
+    // added chatbot responses to realted topics
     static void ChatLoop(string name)
     {
         while (true)
