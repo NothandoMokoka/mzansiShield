@@ -19,7 +19,7 @@ class Program
 
     static void ShowHeader()
     {
-        \\ ASCII Logo Added
+        //ASCII Logo Added
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("=======================================");
         Console.WriteLine("        MZANSHISHIELD ASSISTANT        ");
